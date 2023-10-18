@@ -14,7 +14,7 @@
   "scripts": {
   },
   "exports": {
-    ".": "./index",
+    ".": "./lib/index",
     "./boo": "./lib/middleware/boo/index",
     "./foo": "./lib/middleware/foo/index"
   },
