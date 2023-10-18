@@ -10,13 +10,12 @@
   ],
   "repository": "shanebo/hitch.git",
   "author": "Shane Thacker <shane@steadymade.com>",
-  "main": "./lib/index",
+  "main": "./lib/index.js",
   "scripts": {
   },
   "exports": {
-    ".": "./lib/index",
-    "./boo": "./lib/middleware/boo/index",
-    "./foo": "./lib/middleware/foo/index"
+    "./boo": "./lib/middleware/boo/index.js",
+    "./foo": "./lib/middleware/foo/index.js"
   },
   "dependencies": {
   },
