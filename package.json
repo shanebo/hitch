@@ -1,0 +1,25 @@
+{
+  "name": "hitch",
+  "version": "0.0.1",
+  "description": "A tiny lightning fast server, router, and middleware framework.",
+  "license": "MIT",
+  "keywords": [
+    "app",
+    "framework",
+    "router"
+  ],
+  "repository": "shanebo/hitch.git",
+  "author": "Shane Thacker <shane@steadymade.com>",
+  "main": "./lib/index",
+  "scripts": {
+  },
+  "exports": {
+    ".": "./index",
+    "./boo": "./lib/middleware/boo/index",
+    "./foo": "./lib/middleware/foo/index"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
